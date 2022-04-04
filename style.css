@@ -3,9 +3,10 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 .main {
     width: 800px;
-    height: 65cm;
+    height: 53cm;
     background: #E6C9F9;
     position: relative;
     margin-left: auto;
@@ -19,6 +20,7 @@ body {
     margin-left: 30px;
     margin-top: 30px;
 }
+
  h1, p {
     text-align: center;
    
@@ -114,7 +116,7 @@ body {
     padding: 5px;
 }
 
-.enviar {
+.button {
     font-weight: bolder;
     width: 740px;
     height: 40px;

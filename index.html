@@ -88,18 +88,20 @@
             <h1>Dados Pessoais</h1>
 
             <form class="form">
-                <input class="field" id="name" name="name" placeholder="Digite o seu nome">
-                <input class="field" id="phone" name="phone" placeholder="Digite o seu telefone">
-                <input class="field" id="email" name="email" placeholder="Digite o seu email">
+                <input class="field" type="name"  id="name" name="name" placeholder="Digite o seu nome" required>
+                <input class="field" type="tel" id="phone" name="phone" placeholder="Digite o seu telefone" required>
+                <input class="field" type="email" id="email" name="email" placeholder="Digite o seu email" required>
             </form>
         </div>
 
-        <input type="submit" value="Calcular" class="enviar" onclick="enviarDados()">
+        <div class="footer">
+            <button type="button" class="button" onclick="enviarDados()">Calcular</button>
+        </div>
 
-        <div class="pedido">
-        <p id="valorDigitado"></p>
-        <p id="valorDigitado1"></p>
-        <p id="valorDigitado2"></p>
+        <div class="pedido" id="info-pedido">
+        <p id="saudacao"></p>
+        <p id="dados-pedido"></p>
+        <p id="pedido-final"></p>
         <p id="pedido1"></p>
         <p id="pedido2"></p>
         <p id="pedido3"></p>
@@ -108,6 +110,7 @@
         <p id="pedido6"></p>
         <p id="precoFinal"></p>
         </div>
+        <br>
     </div>
 </body>
 
